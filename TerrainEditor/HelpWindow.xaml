@@ -1,0 +1,20 @@
+﻿<Window x:Class="TerrainEditor.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Help" SizeToContent="WidthAndHeight">
+    <StackPanel TextBlock.FontSize="15">
+        <StackPanel.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="Margin" Value="0,0,0,6" />
+            </Style>
+        </StackPanel.Resources>
+        <TextBlock >Start With "Set Image" button</TextBlock>
+        <TextBlock >Use Mouse Left Click to add a terrain point</TextBlock>
+        <TextBlock >Use Mouse Right Click to add a terrain end point and close a segment</TextBlock>
+        <TextBlock >Use Mouse Scroll to move and zoom the terrain</TextBlock>
+        <TextBlock>Use [Mouse Right Click]+[Left Shift Key] to remove a terrain point</TextBlock>
+        <TextBlock>Use "Select Segment" for selecting entire segment</TextBlock>
+        <TextBlock>If the terrain is not in view use "Center" button</TextBlock>
+        <TextBlock>The "Magnet" feature is incomplete</TextBlock>
+    </StackPanel>
+</Window>

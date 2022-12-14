@@ -1,0 +1,8 @@
+﻿<Window x:Class="TerrainEditor.ShowCodeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ShowCodeWindow" Height="300" Width="300">
+    <Grid>
+        <TextBox IsReadOnly="True" x:Name="txtCode"></TextBox>
+    </Grid>
+</Window>
